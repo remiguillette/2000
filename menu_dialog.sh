@@ -12,20 +12,20 @@ TUI_TITLE="$BEAVER_ICON BeaverTUI"
 
 cat > "$retro_dialogrc" <<'RC'
 use_colors = ON
-screen_color = (BLACK,BLACK,ON)
-title_color = (YELLOW,BLACK,ON)
-border_color = (YELLOW,BLACK,ON)
-button_active_color = (BLACK,YELLOW,ON)
-button_inactive_color = (YELLOW,BLACK,OFF)
-button_label_active_color = (BLACK,YELLOW,ON)
-button_label_inactive_color = (YELLOW,BLACK,OFF)
-item_color = (YELLOW,BLACK,OFF)
-item_selected_color = (BLACK,YELLOW,ON)
-tag_color = (YELLOW,BLACK,ON)
-tag_selected_color = (BLACK,YELLOW,ON)
-inputbox_color = (YELLOW,BLACK,ON)
+screen_color = (BLACK,BLACK,OFF)
+border_color = (YELLOW,BLACK,OFF)
+title_color = (YELLOW,BLACK,OFF)
 menubox_color = (YELLOW,BLACK,OFF)
-menubox_border_color = (YELLOW,BLACK,ON)
+menubox_border_color = (YELLOW,BLACK,OFF)
+item_color = (YELLOW,BLACK,OFF)
+item_selected_color = (BLACK,YELLOW,OFF)
+tag_color = (YELLOW,BLACK,OFF)
+tag_selected_color = (BLACK,YELLOW,OFF)
+button_inactive_color = (YELLOW,BLACK,OFF)
+button_active_color = (BLACK,YELLOW,OFF)
+button_label_inactive_color = (YELLOW,BLACK,OFF)
+button_label_active_color = (BLACK,YELLOW,OFF)
+inputbox_color = (YELLOW,BLACK,OFF)
 RC
 export DIALOGRC="$retro_dialogrc"
 
